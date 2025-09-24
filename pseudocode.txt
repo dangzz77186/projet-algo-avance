@@ -1,0 +1,28 @@
+Initialiser une grille vide de 6 lignes et 7 colonnes
+
+Tant que le jeu n'est pas terminé :
+    Afficher la grille
+    
+    Demander au joueur courant de choisir une colonne
+    
+    Tant que la colonne choisie est invalide ou pleine :
+        Afficher un message d'erreur
+        Redemander une colonne valide
+    
+    Placer le jeton du joueur dans la colonne choisie (en bas de la colonne)
+    
+    Vérifier si le joueur courant a gagné (4 jetons alignés horizontalement, verticalement, ou en diagonale)
+    Si gagné :
+        Afficher la grille
+        Afficher le message que le joueur a gagné
+        Terminer la partie
+    
+    Vérifier si la grille est pleine (match nul)
+    Si grille pleine :
+        Afficher la grille
+        Afficher message de match nul
+        Terminer la partie
+    
+    Passer au joueur suivant
+
+
