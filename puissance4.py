@@ -32,3 +32,11 @@ def verifier_victoire(grille, symbole):
                 grille[lig-2][col+2] == symbole and grille[lig-3][col+3] == symbole):
                 return True
     return False
+
+
+def jouer_coup(grille, colonne, symbole):
+    for i in range(len(grille)-1, -1, -1):
+        if grille[i][colonne] == ' ':
+            grille[i][colonne] = symbole
+            return True
+    return False
